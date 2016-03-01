@@ -1,0 +1,29 @@
+<html><head>
+<hta:application id=hta_id
+applicationName=hta_name
+showInTaskBar=no
+caption=no
+innerBorder=no
+selection=no
+scroll=no
+contextmenu=no />
+<script language=javascript>
+var winWidth=450; // ширина окна
+var winHeight=120; // высота окна
+// изменяем размер
+window.resizeTo(winWidth, winHeight);
+
+// окно в центр экрана
+var winPosX=screen.width/2-winWidth/2;
+var winPosY=screen.height/2-winHeight/2;
+window.moveTo(winPosX, winPosY);
+</script>
+</head>
+<body bgcolor=buttonface text=buttontext
+style="padding: 2px;font: 8pt 'MS Sans serif'">
+<div>Вглядитесь повнимательней на панель задач...
+Ой, а меня, там нету...<br>
+Правая кнопка мыши не работает, и текст не отмечается...<br>
+Ну чем, я не программа? Хотя похожа на баннер ;).</div>
+<div align=right><br>Для выхода нажмите ALT+F4.</div>
+</body></html>
